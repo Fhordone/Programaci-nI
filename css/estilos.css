@@ -1,0 +1,89 @@
+/*Estilos Generales*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+/*Estilo del body*/
+body{
+	background: #ecf0f1;
+	font-family: sans-serif;
+	padding-top: 175px;
+	transition: padding-top 0.5s ease;
+	font-family: "Lato", sans-serif;
+}
+/*Estilo del header*/
+header{
+	width: 100%;
+	height: 150px;
+	background: #000000;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+	transition: all 0.5s ease;
+	margin: 0px;
+
+}
+/*Estilos de letras del header*/
+header p{
+	font-size: 60px;
+	margin: 0px;
+	color: white;
+	line-height: 150px;
+	font-weight: 300;
+	transition: all 0.3s ease;
+}
+/*Estilos del menú*/
+.sidenav {
+  height: 72%;
+  width: 280px;
+  position: fixed;
+  z-index: 1;
+  top: 150;
+  left: 0;
+  background-color: #E3E3E3;
+  overflow-x: hidden;
+  padding: 20px;
+}
+/*Estilo de letras del menú*/
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+}
+/*Estilo de color cuando pasa el mouse*/
+.sidenav a:hover {
+  color: #FFFFFF;
+}
+/*Estilo del contenido de Información*/
+.main {
+  margin-left: 300px; 
+  margin-right: 400px;
+  font-size: 28px; 
+  padding: 0px 10px;
+}
+/*La @media regla se utiliza en consultas 
+de medios para aplicar diferentes estilos para 
+diferentes tipos / dispositivos de medios.*/
+/*Fuente:W3schools.com (Traducido al Español)*/
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*Estilo del pie de página*/
+.footer {
+   position: fixed;
+   top: 670;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   line-height: 47px;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
